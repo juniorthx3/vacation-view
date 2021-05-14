@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(./assets/avenue-815297_1920.jpg) center/cover;
+    overflow: hidden;
+    color:whitesmoke;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    margin:10px auto;
+}
+
+.container .navbar .logo{
+    width:100px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 60px;
+}
+
+.navbar ul{
+    list-style:none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin:0px 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:inherit;
+    transition:0.1s;
+}
+
+.navbar ul li a:hover{
+    padding-bottom:3px;
+    border-bottom: 3px solid red;
+}
+
+
+.content{
+    width:100%;
+    text-align: center;
+    margin:7rem auto
+}
+.content h1{
+    margin-top:20px;
+    text-shadow: -1px 0px 20px rgb(8 0 0 / 87%);
+    font-size:3.5rem;
+    font-family: 'Lobster', cursive;
+}
+
+.content p{
+    margin:30px 100px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.content button{
+    width:200px;
+    padding:15px 0;
+    margin:20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background:transparent;
+    border:2px solid red;
+    color:inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition:linear 0.2s ease-in;
+}
+
+.content button:hover{
+    background:red;
+    box-shadow: inset 0 0 10px #aaa;
+    color:black;
+    font-weight: bold;
+    border:none;
+}
+
+.content button:active{
+    transform:translate(3px, 2px);
+}
+
